@@ -113,3 +113,5 @@ Every commit is having a unique id and day/time when it was committed.
 ```
     git blame <filename>
 ```
+
+### Staging Area
