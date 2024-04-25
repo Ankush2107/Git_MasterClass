@@ -115,3 +115,5 @@ Every commit is having a unique id and day/time when it was committed.
 ```
 
 ### Staging Area
+
+Before committing your changes to the repository, you can selectively choose which changes you want to include in the next commit by staging them. When you stage changes, you're essentially preparing them to be saved in the next commit. The staging area acts as a snapshot of what will be included in the next commit.
