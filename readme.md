@@ -83,3 +83,33 @@ Now, whatever file name you had written instead of `<filename>` it will start tr
     git diff
 ```
 
+- If you want to save your changes to a project's history use this command: 
+
+```
+    git commit -m "description about your changes"
+```
+
+- To display all the commit that have been made till now use this command :
+
+```
+    git log
+```
+
+ OR
+
+```
+    git log --oneline
+```
+Every commit is having a unique id and day/time when it was committed. 
+
+- If you want to detailed information about any specific code commit then use following command:
+
+```
+    git show [id]
+```
+
+- This command display information about who last modified each line of a file in a Git repository, along with the commit information for each change. 
+
+```
+    git blame <filename>
+```
