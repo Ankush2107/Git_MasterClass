@@ -121,11 +121,13 @@ Before committing your changes to the repository, you can selectively choose whi
 ### Reverting Back
 
 #### First way to revert back
-If you accidentally added something which should not be there in repository, You can remove those using below commands.
+- If you accidentally added something which should not be there in repository, You can remove those using below commands.
 
 ```
     git reset --hard     
 ```
+
+After reverting use `git push -f` to force update in remote repository.
 
 This command will make your local repo look exactly like the repository at given [id]. So, if [id] is a branch name, HEAD will be moved.
 
@@ -134,3 +136,28 @@ This command will make your local repo look exactly like the repository at given
 ```
     git revert [id]
 ```
+
+
+#### Branching in git
+
+- A branch is simply a new line of development that can be created from the master branch. It allows developers to work on features independently without affecting.
+- A branch is like a separate line of development within the project history. You can create a new branch using below command :
+
+```
+    git branch <branch name>
+```
+
+- To change your current branch use this command: 
+
+```
+    git checkout <branch name>
+```
+
+- To push your branch on remote server use this command: 
+
+```
+    git push --set-upstream origin <branch name>
+```
+
+We are using this command because you created the new branch from local machine and now you want to push  it into remote repo so that other can see.
+
