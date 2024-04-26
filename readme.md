@@ -124,7 +124,7 @@ Before committing your changes to the repository, you can selectively choose whi
 If you accidentally added something which should not be there in repository, You can remove those using below commands.
 
 ```
-    git reset --hard [id] 
+    git reset --hard     
 ```
 
 This command will make your local repo look exactly like the repository at given [id]. So, if [id] is a branch name, HEAD will be moved.
