@@ -29,7 +29,7 @@ Version control system also known as source control, is tracking and managing so
     }
 ```
 
-Now there is a bug in the day 3 code so, if you want you can also revert your code the from day 3 to day 2. 
+Now there is a bug in the day 3 code so, if you want you can also revert the code from day 3 to day 2. 
 
 ### Setup 
 
@@ -117,3 +117,20 @@ Every commit is having a unique id and day/time when it was committed.
 ### Staging Area
 
 Before committing your changes to the repository, you can selectively choose which changes you want to include in the next commit by staging them. When you stage changes, you're essentially preparing them to be saved in the next commit. The staging area acts as a snapshot of what will be included in the next commit.
+
+### Reverting Back
+
+#### First way to revert back
+If you accidentally added something which should not be there in repository, You can remove those using below commands.
+
+```
+    git reset --hard [id] 
+```
+
+This command will make your local repo look exactly like the repository at given [id]. So, if [id] is a branch name, HEAD will be moved.
+
+#### One more way to revert back
+
+```
+    git revert [id]
+```
