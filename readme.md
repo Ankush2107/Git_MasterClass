@@ -161,3 +161,16 @@ This command will make your local repo look exactly like the repository at given
 
 We are using this command because you created the new branch from local machine and now you want to push  it into remote repo so that other can see.
 
+#### Merging Branches
+
+Merging is the process of integrating changes from one branch into another. In Git, you can merge any number of branches together using the following command:
+
+```
+    git merge origin / <branch name>
+```
+
+#### If you remotely merging two branches then pull the changes from a remote repo and merge it with your local one by using this command: 
+
+```
+    git pull
+```
