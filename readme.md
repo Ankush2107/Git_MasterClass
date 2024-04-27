@@ -124,7 +124,7 @@ Before committing your changes to the repository, you can selectively choose whi
 - If you accidentally added something which should not be there in repository, You can remove those using below commands.
 
 ```
-    git reset --hard     
+    git reset --hard [id]
 ```
 
 After reverting use `git push -f` to force update in remote repository.
