@@ -153,6 +153,13 @@ This command will make your local repo look exactly like the repository at given
     git checkout <branch name>
 ```
 
+- The above to commands can be used together like so:
+
+```
+    git checkout -b <new branch name>   
+```
+Created a new branch and switched to it at the same time.
+
 - To push your branch on remote server use this command: 
 
 ```
