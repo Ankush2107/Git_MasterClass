@@ -43,7 +43,7 @@ Now there is a bug in the day 3 code so, if you want you can also revert the cod
 - if you want to check whether the given details are set or not then use following command:
 
 ```
-    git config --list
+    git config --global --list
 ```
 
 OR
